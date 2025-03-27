@@ -4,9 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nature's PLatter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/71c993ed4c.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              },
+              fontFamily:{
+               sora:['Sora', 'sans-serif'],
+              }
+            }
+          }
+        }
+      </script>
 </head>
-<body>
-    <header>
+<body class="font-sora">
+    <header class="bg-gradient-to-t  from-[#EFEBE3] to-[#ffffff]">
+        <!-- navbar section -->
+       <nav class="mb-12">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow space-y-5">
+                  <li><a>Product</a></li>
+                  <li><a>Services</a></li>
+                  <li><a>Contact Us</a></li>
+                  <li><a><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                  <li><a><i class="fa-solid fa-cart-shopping"></i></a></li>
+                  <a class="btn mr-2 border-green-500">Login</a>
+                  <a class="btn bg-green-500 text-white">Register</a>
+                  
+                </ul>
+              </div>
+              <a class="btn text-xl"><img class="h-14 w-40 md:start" src="assets/logo-header.png" alt=""></a>
+              
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                    <li><a>Product</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end  ">
+                <ul class="list-none flex gap-3 mr-4 hidden md:block">
+                <li class="btn"><a><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li class="btn"><a><i class="fa-solid fa-cart-shopping"></i></a></li>
+                </ul>
+                <div class="hidden sm:block">
+                    <a class="btn mr-2 border-green-500">Login</a>
+                    <a class="btn bg-green-500 text-white">Register</a>
+                </div>
+            </div>
+          </div>
+       </nav>
+       <!-- banner section -->
 
     </header>
     <main>
