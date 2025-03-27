@@ -26,74 +26,216 @@
       </script>
 </head>
 <body class="font-sora">
-    <header class="bg-gradient-to-t  from-[#EFEBE3] to-[#ffffff mb-32]">
-        <!-- navbar section -->
-       <nav class="mb-12">
-        <div class="navbar bg-base-100">
-            <div class="navbar-start">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M4 6h16M4 12h8m-8 6h16" />
-                  </svg>
-                </div>
-                <ul
-                  tabindex="0"
-                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow space-y-5">
-                  <li><a>Product</a></li>
-                  <li><a>Services</a></li>
-                  <li><a>Contact Us</a></li>
-                  <li><a><i class="fa-solid fa-magnifying-glass"></i></a></li>
-                  <li><a><i class="fa-solid fa-cart-shopping"></i></a></li>
-                  <a class="btn mr-2 border-green-500">Login</a>
-                  <a class="btn bg-green-500 text-white">Register</a>
-                  
-                </ul>
-              </div>
-              <a class="btn text-xl"><img class="h-14 w-40 md:start" src="assets/logo-header.png" alt=""></a>
-              
+    
+    <header class="bg-gradient-to-t  from-[#EFEBE3] to-[#ffffff] mb-32">
+    <div class="navbar mb-24">
+        <div class="navbar-start lg:max-w-screen-sm flex-row-reverse w-full justify-between">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
             </div>
-            <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1">
-                    <li><a>Product</a></li>
-                    <li><a>Services</a></li>
-                    <li><a>Contact Us</a></li>
-              </ul>
-            </div>
-            <div class="navbar-end  ">
-                <ul class="list-none flex gap-3 mr-4 hidden md:block">
-                <li class="btn"><a><i class="fa-solid fa-magnifying-glass"></i></a></li>
-                <li class="btn"><a><i class="fa-solid fa-cart-shopping"></i></a></li>
-                </ul>
-                <div class="hidden sm:block">
-                    <a class="btn mr-2 border-green-500">Login</a>
-                    <a class="btn bg-green-500 text-white">Register</a>
-                </div>
-            </div>
+            <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow space-y-5 right-0">
+            <li><a>Product</a></li>
+            <li><a>Services</a></li>
+            <li><a>Contact Us</a></li>
+            <li><a><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            <li><a><i class="fa-solid fa-cart-shopping"></i></a></li>
+            <a class="btn mr-2 border-green-500">Login</a>
+            <a class="btn bg-green-500 text-white">Register</a>
+            
+          </ul>
           </div>
-       </nav>
-       <!-- banner section -->
-       <section>
-            <div class="w-2/3 mx-auto text-center">
-                <h1 class="text-5xl font-semibold mb-8">Freshness <span class="text-green-500">You Can <br>
-                    Count</span>  On, Prices You’ll Love!</h1>
-                <p class="mb-8">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
-                <img src="assets/hero-vegetables.png" alt="">
-            </div>
-       </section>
-
+          <a class="btn text-xl"><img class="h-14 w-40 md:start" src="assets/logo-header.png" alt=""></a>
+        </div>
+        <div class="navbar-center hidden lg:flex mr-[80px] justify-center">
+            <ul class="menu menu-horizontal px-1">
+                <li><a>Product</a></li>
+                <li><a>Services</a></li>
+                <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end hidden lg:flex">
+            <ul class="flex gap-4 mr-4">
+                <li><a><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li><a><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+            <a class="btn mr-2 border-green-500">Login</a>
+            <a class="btn bg-green-500 text-white">Register</a>
+        </div>
+      </div>
+      <!-- banner section -->
+      <section>
+        <div class="w-2/3 mx-auto text-center">
+            <h1 class="text-5xl font-semibold mb-8">Freshness <span class="text-green-500">You Can <br>
+                Count</span>  On, Prices You’ll Love!</h1>
+            <p class="mb-8">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+            <img src="assets/hero-vegetables.png" alt="">
+        </div>
+    </section>
     </header>
     <main>
-
+        <!-- Extra Section -->
+         <section class="w-11/12 mx-auto mb-32 px-10">
+            <h1 class="text-4xl font-semibold mb-12">Our Special <span class="text-green-500">Products</span></h1>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
+                <!-- card 1 -->
+                <div class="card card bg-[#E9E5DD] p-6 bg-base-100 shadow-xl">
+                    <figure>
+                      <img class="h-40 w-40 rounded-lg"
+                        src="assets/extra1.jpg"
+                        alt="Mango" />
+                    </figure>
+                    <div class="card-body space-y-5">
+                      <h2 class="card-title">Mango</h2>
+                      <p>This is our Special product</p>
+                      <div class="card-actions justify-start">
+                        <button class="btn bg-green-500 text-white">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- card 2-->
+                  <div class="card card bg-[#E9E5DD] p-6 bg-base-100 shadow-xl">
+                    <figure>
+                      <img class="h-40 w-40 rounded-lg"
+                        src="assets/extra-2.jpg"
+                        alt="Strawberry" />
+                    </figure>
+                    <div class="card-body space-y-5">
+                      <h2 class="card-title">Strawberry</h2>
+                      <p>This is our Special product</p>
+                      <div class="card-actions justify-start">
+                        <button class="btn bg-green-500 text-white">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+               <!-- card 3 -->
+               <div class="card card bg-[#E9E5DD] p-6 bg-base-100 shadow-xl">
+                <figure>
+                  <img class="h-40 w-40 rounded-lg"
+                    src="assets/extra3.jpg"
+                    alt="Apple" />
+                </figure>
+                <div class="card-body space-y-5">
+                  <h2 class="card-title">Apple</h2>
+                  <p>This is our Special product</p>
+                  <div class="card-actions justify-start">
+                    <button class="btn bg-green-500 text-white">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            
+                <!-- card 4 -->
+                <div class="card card bg-[#E9E5DD] p-6 bg-base-100 shadow-xl">
+                    <figure>
+                      <img class="h-40 w-40 rounded-lg"
+                        src="assets/extra4.jpg"
+                        alt="Carrots" />
+                    </figure>
+                    <div class="card-body space-y-5">
+                      <h2 class="card-title">Carrots</h2>
+                      <p>This is our Special product</p>
+                      <div class="card-actions justify-start">
+                        <button class="btn bg-green-500 text-white">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                
+                <!-- card 5 -->
+                <div class="card card bg-[#E9E5DD] p-6 bg-base-100 shadow-xl">
+                    <figure>
+                      <img class="h-40 w-40 rounded-lg"
+                        src="assets/extra5.jpg"
+                        alt="Green Leafs" />
+                    </figure>
+                    <div class="card-body space-y-5">
+                      <h2 class="card-title">Green Leafs</h2>
+                      <p>This is our Special product</p>
+                      <div class="card-actions justify-start">
+                        <button class="btn bg-green-500 text-white">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+               
+                <!-- card 6 -->
+                <div class="card card bg-[#E9E5DD] p-6 bg-base-100 shadow-xl">
+                    <figure>
+                      <img class="h-40 w-40 rounded-lg"
+                        src="assets/extra1.jpg"
+                        alt="Tomato" />
+                    </figure>
+                    <div class="card-body space-y-5">
+                      <h2 class="card-title">Tomato</h2>
+                      <p>This is our Special product</p>
+                      <div class="card-actions justify-start">
+                        <button class="btn bg-green-500 text-white">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                   
+            </div>
+         </section>
+        <!-- services section -->   
+         
+         <section class="w-11/12 mb-32 px-10 mx-auto">
+            <h3 class="text-green-500 text-4xl font-semibold mb-12">Services</h3>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <div class="card bg-[#E9E5DD]  shadow-xl space-y-5">
+                    <figure class="px-10 pt-10">
+                        <div class="avatar">
+                            <div class="w-24 p-4 bg-white rounded-full">
+                              <img class="" src="assets/service.png" />
+                            </div>
+                          </div>
+                    </figure>
+                    <div class="card-body items-center text-center space-y-5 ">
+                      <h2 class="card-title">24/7 Services </h2>
+                      <p>Our 24/7 services ensure round-the-clock support, delivering reliability, efficiency, and convenience whenever you need assistance, anytime, anywhere.</p>
+                    </div>
+                  </div>
+                  <div class="card bg-[#E9E5DD] shadow-xl space-y-5">
+                    <figure class="px-10 pt-10">
+                        <div class="avatar">
+                            <div class="w-24 p-4 bg-white rounded-full">
+                              <img class="" src="assets/delivery.png" />
+                            </div>
+                          </div>
+                    </figure>
+                    <div class="card-body items-center text-center space-y-5 ">
+                      <h2 class="card-title">Fast Delivery</h2>
+                      <p>We ensure quick, reliable, and hassle-free delivery, bringing your orders to your doorstep efficiently, anytime you need them.</p>
+                    </div>
+                  </div>
+                  <div class="card bg-[#E9E5DD] shadow-xl space-y-5">
+                    <figure class="px-10 pt-10">
+                        <div class="avatar">
+                            <div class="w-24 p-4 bg-white rounded-full">
+                              <img class="" src="assets/healthy.png" />
+                            </div>
+                          </div>
+                    </figure>
+                    <div class="card-body items-center text-center space-y-5 ">
+                      <h2 class="card-title">Healthy Products </h2>
+                      <p>We provide natural, organic, and nutritious products, ensuring a healthier lifestyle with high-quality ingredients for overall well-being and vitality.</p>
+                    </div>
+                  </div>
+               
+            </div>
+         </section>
     </main>
     <footer>
         
